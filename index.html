@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SJ Real Estate &amp; Builders | Property Rentals &amp; Consultancy in Lahore</title>
+<meta name="description" content="SJ Real Estate & Builders, Gulberg III, Lahore. Residential house and flat rentals, commercial property leasing, buying and selling advisory, and rental agreement documentation.">
+<meta name="theme-color" content="#0b1730">
+<link rel="icon" type="image/png" href="assets/logo-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container nav-wrap">
+    <a href="#home" class="brand">
+      <svg class="brand-mark" viewBox="0 0 100 110" aria-hidden="true">
+        <defs>
+          <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#f3d27a"/>
+            <stop offset="0.5" stop-color="#c9a24a"/>
+            <stop offset="1" stop-color="#a87d2a"/>
+          </linearGradient>
+        </defs>
+        <path d="M50 4 L92 18 V54 C92 80 72 98 50 106 C28 98 8 80 8 54 V18 Z" fill="#0b1730" stroke="url(#gold)" stroke-width="5"/>
+        <path d="M22 44 L50 22 L78 44" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="65" y="26" width="6" height="12" fill="url(#gold)"/>
+        <rect x="45" y="34" width="10" height="9" fill="url(#gold)"/>
+        <text x="50" y="80" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="30" fill="url(#gold)">SJ</text>
+      </svg>
+      <span class="brand-text">
+        <strong>SJ Real Estate</strong>
+        <small>&amp; Builders</small>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#policy">Commission</a>
+      <a href="#proprietor">Proprietor</a>
+      <a href="#contact">Contact</a>
+      <a href="tel:+923214250289" class="btn btn-gold nav-cta">Call 0321-4250289</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="hero-lines" aria-hidden="true">
+    <svg viewBox="0 0 800 500" preserveAspectRatio="xMaxYMax slice">
+      <g fill="none" stroke="#c9a24a" stroke-opacity="0.18" stroke-width="1.2">
+        <path d="M420 500 V200 H560 V500"/>
+        <path d="M560 500 V120 H700 V500"/>
+        <path d="M700 500 V260 H800"/>
+        <path d="M440 230 H540 M440 270 H540 M440 310 H540 M440 350 H540 M440 390 H540 M440 430 H540"/>
+        <path d="M580 150 H680 M580 190 H680 M580 230 H680 M580 270 H680 M580 310 H680 M580 350 H680 M580 390 H680 M580 430 H680"/>
+        <path d="M490 200 V500 M630 120 V500"/>
+        <path d="M300 500 V330 L360 290 L420 330"/>
+        <path d="M320 380 H400 M320 420 H400"/>
+      </g>
+    </svg>
+  </div>
+  <div class="hero-stripe hero-stripe-a" aria-hidden="true"></div>
+  <div class="hero-stripe hero-stripe-b" aria-hidden="true"></div>
+
+  <div class="container hero-grid">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">Property &middot; People &middot; Trust</p>
+      <h1>Find the right home or business space in <span class="gold-text">Lahore</span></h1>
+      <p class="lead">SJ Real Estate &amp; Builders is a registered real estate consultancy in Gulberg III, Lahore. We arrange and lease houses, flats, apartments, shops, offices and showrooms, and we handle every step from the first viewing to the signed tenancy agreement.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/923214250289" target="_blank" rel="noopener" class="btn btn-gold">Chat on WhatsApp</a>
+        <a href="#services" class="btn btn-outline">Our Services</a>
+      </div>
+      <ul class="hero-points">
+        <li>Registered business</li>
+        <li>Verified landlords and tenants</li>
+        <li>Official numbered receipts</li>
+      </ul>
+    </div>
+
+    <form class="enquiry-card reveal" id="enquiryForm" novalidate>
+      <h2>Quick Property Enquiry</h2>
+      <p class="muted">Tell us what you need and we will reply on WhatsApp.</p>
+      <label>
+        <span>Your Name</span>
+        <input type="text" name="name" placeholder="Full name" required>
+      </label>
+      <label>
+        <span>I am looking for</span>
+        <select name="need">
+          <option>House for rent</option>
+          <option>Flat / apartment for rent</option>
+          <option>Upper / lower portion for rent</option>
+          <option>Commercial shop or office</option>
+          <option>Showroom / retail space</option>
+          <option>Buy a property</option>
+          <option>Sell or rent out my property</option>
+        </select>
+      </label>
+      <div class="field-row">
+        <label>
+          <span>Preferred Area</span>
+          <input type="text" name="area" placeholder="e.g. Gulberg, DHA">
+        </label>
+        <label>
+          <span>Budget (PKR)</span>
+          <input type="text" name="budget" placeholder="e.g. 150,000 / month">
+        </label>
+      </div>
+      <button type="submit" class="btn btn-gold btn-block">Send Enquiry</button>
+      <p class="form-error" id="enquiryError" role="alert"></p>
+    </form>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <div class="container about-grid">
+    <div class="about-visual reveal">
+      <div class="logo-frame">
+        <img src="assets/logo-full.png" alt="SJ Real Estate and Builders logo">
+      </div>
+      <div class="reg-card">
+        <div>
+          <span class="reg-label">Business Title</span>
+          <strong>SJ Real Estate &amp; Builders</strong>
+        </div>
+        <div>
+          <span class="reg-label">Tax / Reference No.</span>
+          <strong>7587165-3</strong>
+        </div>
+        <div>
+          <span class="reg-label">Head Office</span>
+          <strong>Gulberg III, Lahore</strong>
+        </div>
+      </div>
+    </div>
+    <div class="about-copy reveal">
+      <p class="eyebrow dark">About Us</p>
+      <h2 class="section-title">A trusted name in Lahore property rentals</h2>
+      <p>SJ Real Estate &amp; Builders is a real estate consultancy and property brokerage based at Akram Park, Ghalib Market, Gulberg III, Lahore. The business is owned and operated by Sharjeel Ayub and is formally registered.</p>
+      <p>Our main focus is residential and commercial rentals across the leading residential and business districts of Lahore. We lease independent houses, modern flats and apartments, as well as shops, offices and retail spaces that fit the real needs of tenants and property owners.</p>
+      <p>Through honest dealing, accurate local market valuation and steady follow-up with every client, we have built a strong network of landlords, corporate clients and residential tenants across the city.</p>
+      <div class="about-tags">
+        <span>Residential Rentals</span>
+        <span>Commercial Leasing</span>
+        <span>Investment Advisory</span>
+        <span>Agreement Documentation</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section services" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">What We Do</p>
+      <h2 class="section-title light">Core Real Estate Services</h2>
+      <p class="section-sub">End-to-end brokerage and documentation support with a primary focus on residential and commercial leasing.</p>
+    </div>
+    <div class="service-grid">
+      <article class="service-card reveal">
+        <span class="service-no">01</span>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5 10v10h14V10M10 20v-6h4v6"/></svg>
+        </div>
+        <h3>Residential House &amp; Flat Rentals</h3>
+        <p>Independent houses, upper and lower portions, and apartments for families and professionals across Lahore, with shortlisting, viewing coordination and lease negotiation.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-no">02</span>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 20V6l8-3 8 3v14M4 20h16M8 9h2M14 9h2M8 13h2M14 13h2M10 20v-3h4v3"/></svg>
+        </div>
+        <h3>Commercial Property Leasing</h3>
+        <p>Shops, corporate offices, showrooms and retail spaces in high-demand commercial hubs, matched carefully to each tenant's business needs.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-no">03</span>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 19h16M6 16l4-5 3 3 5-7M15 7h3v3"/></svg>
+        </div>
+        <h3>Buying, Selling &amp; Investment Advisory</h3>
+        <p>Market-informed guidance for buying and selling property, plus rental yield assessment based on location, demand and realistic market comparables.</p>
+      </article>
+      <article class="service-card reveal">
+        <span class="service-no">04</span>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7zM14 3v5h5M10 13h6M10 17h6"/></svg>
+        </div>
+        <h3>Rental &amp; Legal Agreement Documentation</h3>
+        <p>Formal tenancy agreements, CNIC and identity verification, landlord ownership checks and official commission payment receipts.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section process" id="process">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow dark">How It Works</p>
+      <h2 class="section-title">We manage every step of the leasing process</h2>
+    </div>
+    <ol class="steps">
+      <li class="step reveal">
+        <span class="step-no">1</span>
+        <h3>Requirement Assessment</h3>
+        <p>We understand your budget, location, size and timeline.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-no">2</span>
+        <h3>Property Shortlisting</h3>
+        <p>We select properties that genuinely match your needs.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-no">3</span>
+        <h3>Site Viewings</h3>
+        <p>We arrange and accompany you on property visits.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-no">4</span>
+        <h3>Fair Rent Negotiation</h3>
+        <p>We negotiate a fair rent and clear terms for both sides.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-no">5</span>
+        <h3>Identity Verification</h3>
+        <p>Tenant and landlord CNIC and ownership checks.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-no">6</span>
+        <h3>Tenancy Agreement</h3>
+        <p>Formal agreement prepared and signed by both parties.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section why">
+  <div class="container why-grid">
+    <div class="why-item reveal">
+      <svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z M8.5 12l2.5 2.5 4.5-5"/></svg>
+      <h3>Ethical Dealing</h3>
+      <p>Transparent terms with no hidden charges.</p>
+    </div>
+    <div class="why-item reveal">
+      <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>
+      <h3>Local Market Knowledge</h3>
+      <p>Accurate valuation across Lahore's key areas.</p>
+    </div>
+    <div class="why-item reveal">
+      <svg viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7zM14 3v5h5M10 14l2 2 4-4"/></svg>
+      <h3>Formal Documentation</h3>
+      <p>Verified parties and proper written agreements.</p>
+    </div>
+    <div class="why-item reveal">
+      <svg viewBox="0 0 24 24"><path d="M16 11a4 4 0 1 0-8 0 M4 21a8 8 0 0 1 16 0 M12 7a3 3 0 1 0 0-6"/></svg>
+      <h3>Client Follow-Through</h3>
+      <p>Support that continues after the deal is closed.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section policy" id="policy">
+  <div class="container policy-grid">
+    <div class="policy-copy reveal">
+      <p class="eyebrow">Transparent Pricing</p>
+      <h2 class="section-title light">Simple, standard commission</h2>
+      <p>We follow the standard brokerage practice in Pakistan. Our service commission is charged only after a rental deal is successfully completed.</p>
+    </div>
+    <div class="policy-cards">
+      <div class="policy-card highlight reveal">
+        <span class="policy-big">50%</span>
+        <h3>of one month's agreed rent</h3>
+        <p>Service commission, payable only on successful completion of the rental transaction.</p>
+      </div>
+      <div class="policy-card reveal">
+        <h3>Accepted Payment Methods</h3>
+        <ul class="check-list">
+          <li>Bank Transfer</li>
+          <li>Crossed Cheque</li>
+          <li>Cash</li>
+        </ul>
+        <p class="muted-light">Every payment is acknowledged on an official numbered company receipt, signed and stamped by the proprietor.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section proprietor" id="proprietor">
+  <div class="container proprietor-grid">
+    <div class="proprietor-photo reveal">
+      <img src="assets/proprietor.jpg" alt="Sharjeel Ayub, Proprietor of SJ Real Estate and Builders">
+    </div>
+    <div class="proprietor-copy reveal">
+      <p class="eyebrow dark">Meet the Proprietor</p>
+      <h2 class="section-title">Sharjeel Ayub</h2>
+      <p class="role">Proprietor &middot; Real Estate Consultant &amp; Dealer</p>
+      <p>Sharjeel Ayub personally oversees every deal at SJ Real Estate &amp; Builders. His approach is built on clear communication, fair negotiation and complete documentation, so that both property owners and tenants can move forward with confidence.</p>
+      <div class="proprietor-contact">
+        <a href="tel:+923214250289">
+          <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+          0321-4250289
+        </a>
+        <a href="mailto:sharjeelayub.sa@gmail.com">
+          <svg viewBox="0 0 24 24"><path d="M3 6h18v12H3z M3 7l9 6 9-6"/></svg>
+          sharjeelayub.sa@gmail.com
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Get In Touch</p>
+      <h2 class="section-title light">Visit our office or send a message</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="info-item">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z M12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg></div>
+          <div>
+            <h3>Office Address</h3>
+            <p>Akram Park, Ghalib Market,<br>Gulberg III, Lahore, Pakistan</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></div>
+          <div>
+            <h3>Phone / WhatsApp</h3>
+            <p><a href="tel:+923214250289">0321-4250289</a></p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M3 6h18v12H3z M3 7l9 6 9-6"/></svg></div>
+          <div>
+            <h3>Email</h3>
+            <p><a href="mailto:sharjeelayub.sa@gmail.com">sharjeelayub.sa@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe title="SJ Real Estate and Builders office location" src="https://www.google.com/maps?q=Ghalib+Market,+Gulberg+III,+Lahore&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <h3>Send Us a Message</h3>
+        <div class="field-row">
+          <label>
+            <span>Full Name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span>Phone Number</span>
+            <input type="tel" name="phone" required>
+          </label>
+        </div>
+        <label>
+          <span>Subject</span>
+          <select name="subject">
+            <option>Looking to rent a property</option>
+            <option>Want to rent out my property</option>
+            <option>Buying or selling advice</option>
+            <option>Agreement documentation</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-gold" data-channel="whatsapp">Send via WhatsApp</button>
+          <button type="submit" class="btn btn-outline" data-channel="email">Send via Email</button>
+        </div>
+        <p class="form-error" id="contactError" role="alert"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#home" class="brand footer-brand">
+        <img src="assets/logo-mark.png" alt="" class="footer-logo">
+        <span class="brand-text">
+          <strong>SJ Real Estate</strong>
+          <small>&amp; Builders</small>
+        </span>
+      </a>
+      <p class="footer-tag">Property. People. Trust.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#policy">Commission Policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li>Residential Rentals</li>
+        <li>Commercial Leasing</li>
+        <li>Investment Advisory</li>
+        <li>Agreement Documentation</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+923214250289">0321-4250289</a></li>
+        <li><a href="mailto:sharjeelayub.sa@gmail.com">sharjeelayub.sa@gmail.com</a></li>
+        <li>Akram Park, Ghalib Market, Gulberg III, Lahore</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; <span id="year"></span> SJ Real Estate &amp; Builders. All rights reserved.</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/923214250289" target="_blank" rel="noopener" class="wa-float" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-3.9-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.7 5 .8.4 1.4.6 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
